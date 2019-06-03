@@ -12,7 +12,6 @@ adult.test - test set
 adult.names - information about the data
 
 We've done some pre-processing for you, so you can just load a Numpy array into your Python program.
-
 Pre-processed data:
 adult_train.npz - training data, 32561 examples by 113 attributes
 adult_test.npz - testing data, 16281 examples
@@ -22,16 +21,22 @@ You can load the data from the npz file with np.load(filename). This should retu
 
 The pre-processing included removing some features and converting some features to one-hot representation. You may want to additionally whiten the features i.e. subtract the mean and divide by the standard deviation of each column.
 
-The label you'll predict (income) and the sensitive attribute (sex), are both features in this dataset. Before learning to predict income (or sex), you'll need to remove it from the data.
-     
+The label you'll predict (income) and the sensitive attribute (sex), are both features in this dataset. Before learning to predict income (or sex), you'll need to remove it from the data.  
+
 ### Fairness Method used:
+
   1. Removing of Most correlated feature of the sensible attribute
   2. Maximum Mean Disprepancy (MMD) : measure of distance between two distribution given a sample
   
 ### Classifier 
+
   1. Logistic Regression
   2. Neural Network : Keras implementation
   
 ### More ressources to understand Fairness in Machine Learning
-    1.[ Fairness in ML](https://towardsdatascience.com/a-tutorial-on-fairness-in-machine-learning-3ff8ba1040cb)
-    2. [Fairness Overview](https://developers.google.com/machine-learning/fairness-overview/)
+   1.[ Fairness in ML](https://towardsdatascience.com/a-tutorial-on-fairness-in-machine-learning-3ff8ba1040cb)
+   2. [Fairness Overview](https://developers.google.com/machine-learning/fairness-overview/)
+    
+    
+    
+    
