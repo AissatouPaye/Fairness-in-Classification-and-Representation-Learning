@@ -31,16 +31,3 @@ The label you'll predict (income) and the sensitive attribute (sex), are both fe
 ### Classifier 
   1. Logistic Regression
   2. Neural Network : Keras implementation
- 
- 
- 
-     
-          &We are going to use hirerchial modeling, staring with clustering and then with in each cluster we are going to run different % kerenl model.
-          Also second thing to try is to use soft clustering and the use the weights as a mixsuer values for the multi-models.
-          Also Stack modeles.
-          &### MI for gene selection + SVM
-          ### [multi-kernel learning](https://github.com/mstrazar/mklaren) 
-          ### double RBF-Kernel 
-          ### featuers selection [scikit-rebate](https://github.com/EpistasisLab/scikit-rebate)
-
-          ### Note:
