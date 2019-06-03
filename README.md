@@ -31,3 +31,7 @@ The label you'll predict (income) and the sensitive attribute (sex), are both fe
 ### Classifier 
   1. Logistic Regression
   2. Neural Network : Keras implementation
+  
+### More ressources to understand Fairness in Machine Learning
+    1.[ Fairness in ML](https://towardsdatascience.com/a-tutorial-on-fairness-in-machine-learning-3ff8ba1040cb)
+    2. [Fairness Overview](https://developers.google.com/machine-learning/fairness-overview/)
