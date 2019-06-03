@@ -35,6 +35,7 @@ The label you'll predict (income) and the sensitive attribute (sex), are both fe
   
 ### More ressources to understand Fairness in Machine Learning
    1.[ Fairness in ML](https://towardsdatascience.com/a-tutorial-on-fairness-in-machine-learning-3ff8ba1040cb)
+   
    2. [Fairness Overview](https://developers.google.com/machine-learning/fairness-overview/)
     
     
